@@ -1,0 +1,10 @@
+<div *ngIf="hero">
+  <h2>{{hero.name | uppercase}} Details</h2>
+  <div><span>id: </span>{{hero.id}}</div>
+  <div>
+    <label>name:
+      <input [(ngModel)]="hero.name" placeholder="name">
+    </label>
+    <img src="https://media.gettyimages.com/photos/actor-david-hasselhoff-plays-lifeguard-mitch-buchannon-on-the-show-picture-id644194572" />
+  </div>
+</div>

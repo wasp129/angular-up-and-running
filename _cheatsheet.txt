@@ -1,0 +1,3 @@
+ng serve --open					// serve application
+
+ng generate component {component name}		// generate new component
